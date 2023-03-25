@@ -1,0 +1,57 @@
+import java.util.Scanner;
+
+public class booleanExpressions 
+{
+	static Scanner keyboard = new Scanner(System.in);
+	public static void main(String[]args) {
+		
+		//Value of int1 is greater than value of int2 and int3
+		
+		int First = 10;
+		int Second = 5;
+		int Third = 2;
+		
+		if(First > Second && First > Third) {
+			System.out.printf("%d is greater than %d and %d is greater than %d\n",First,Second,First,Third);
+		}
+		
+		//The value of char variable ch is not equal to X
+		
+		char ch = 'B';
+		if(ch != 'X') {
+			System.out.printf("The value of ch is not equal to X\n");
+		}
+		
+		//The value String variable name is not equal to the value of String variable searchValue
+		
+		String name = "Jenny";
+		String searchValue = "Jennifer";
+	
+		if(name != searchValue) {
+			System.out.printf("%s is not the same as %s\n",name, searchValue);
+		}
+		 
+		//The value taken on by the numeric variable re1 is the smallest of the three variables re1, re2, and re3
+		
+		int re1 = 20;
+		int re2 = 30;
+		int re3 = 40;
+		
+		if(re1 < re2 && re1 < re3){
+			System.out.print("re1 is the smallest of the three variables\n");
+			}
+			else {
+				System.out.print("re1 is the biggest of the three variables\n");
+			}
+		
+		//Value int1 is not evenly divisible by value int2
+		
+		int a = 10;
+		int b = 3;
+
+		if (a % b != 0) {
+			System.out.println(a + " is not evenly divisible by " + b);
+	}
+	
+	}
+}
